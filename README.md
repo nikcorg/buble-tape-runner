@@ -6,6 +6,10 @@ The name `buble-tape-runner` is a bit misleading, because this tool uses both [`
 
 Install with `npm i buble-tape-runner`, with appropriate save flags if you wish. Then in your `test` (or other) `package.json` script, enter `buble-tape-runner <glob pattern>`, where `glob-pattern` is e.g. `test/*.js`.
 
+## Why not Babel
+
+Babel is an *amazing* project, which I use often and a lot, but sometimes it can feel a bit like overkill, when you don't need all the latest and greatest of the shiny things available. Buble is a turnkey ES6 to ES5 transpiler, and Reify tackles the new module import and export to CommonJS transpilation. Installation is fast and zero configuration.
+
 ## License
 
 Buble Tape Runner is MIT licensed.
