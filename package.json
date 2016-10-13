@@ -1,0 +1,25 @@
+{
+  "name": "buble-tape-runner",
+  "version": "1.0.0",
+  "description": "A simple tape test runner that uses Buble and Reify to compile code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es6",
+    "buble",
+    "tape",
+    "unit testing"
+  ],
+  "author": "Niklas Lindgren <nikc@iki.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "buble": "^0.14.0",
+    "glob": "^7.1.1",
+    "reify": "^0.3.8"
+  },
+  "bin": {
+    "buble-tape-runner": "./bin/buble-tape-runner"
+  }
+}
