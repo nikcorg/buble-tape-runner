@@ -21,5 +21,9 @@
   },
   "bin": {
     "buble-tape-runner": "./bin/buble-tape-runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikcorg/buble-tape-runner.git"
   }
 }
