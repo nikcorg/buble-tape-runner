@@ -1,6 +1,6 @@
 {
   "name": "buble-tape-runner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple tape test runner that uses Buble and Reify to compile code",
   "main": "index.js",
   "scripts": {
