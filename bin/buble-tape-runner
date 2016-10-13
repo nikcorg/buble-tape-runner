@@ -6,7 +6,6 @@ const patterns = process.argv.slice(2);
 require('../lib/require-hook');
 
 patterns.forEach(function (pattern) {
-  console.error('globbing %s', pattern);
   glob(pattern, function (err, matches) {
     if (err) throw err;
     matches.forEach(function (match) {
